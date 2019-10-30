@@ -1,0 +1,167 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  background-image: linear-gradient(#9494ff ,#c3c3da,#f0f0f0);
+  color:  rgb(60, 60, 60);
+}
+
+/* .container {
+  width: 500px;   
+  margin: 0 auto; 
+} */
+
+@media (max-width: 1920px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+    margin: 0 auto; 
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto; 
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto; 
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto; 
+  }
+}
+
+.card-white {
+  margin: 15px;
+  background: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;                        
+  box-shadow: 2px 8px 25px rgba(0,0,0,.7);
+}
+
+.x-div-center {
+  width: 600px;
+  margin: 5px auto;  
+  padding: 5px;  
+  text-align: left;
+}
+
+.div-center {
+  width: 250px;
+  margin: 5px auto;  
+  padding: 5px;  
+ 
+}
+
+h1 {
+  margin: 0;
+  font-family: Roboto,  sans-serif;
+  font-weight: 800;
+  color: #23374d;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,  sans-serif;
+  font-weight: 750;
+  color: #8f4426;
+}
+
+h3 {
+  margin: 0;
+  font-family: Roboto,  sans-serif;  
+  font-weight: 800;
+  color: #23374d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  margin: 10px ;
+  border-radius: 40%;
+  border: 5px solid #23374d;
+}
+
+#btn-purple {
+  background-color: #8f4426;
+  color: white;
+  padding: 15px;  
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#btn-purple:hover {
+  background-color: #de6b35;
+}
+
+.fa-golang {
+  padding: 0;
+  padding-top: 30px;
+  
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.social-link {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.social-link > a:hover {
+  color: #de6b35;
+}
+
+.social-link > a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list > li {  
+  padding: 0px 5px;
+}
+
+.contact-link {
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.contact-link > a:hover {
+  color: #de6b35;
+}
+
+.contact-link > a {
+  text-decoration: none;
+  color: #23374d;
+}
